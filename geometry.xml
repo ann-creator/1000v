@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" region="-7 8 -9 -10 11 12 -345 232" universe="2" />
+  <cell fill="228" id="2" region="-7 8 -9 -10 11 12 -345 232" universe="3" />
+  <cell id="3" material="1" region="-1 2 -3 4 5 -6 123 -345 232" universe="1" />
+  <cell id="5" material="6" region="(-678 | (-765 895)) -345 232" universe="1" />
+  <cell id="6" material="3" region="-123 765 -345 232" universe="1" />
+  <cell id="7" material="2" region="-895 678 -345 232" universe="1" />
+  <hex_lattice id="228" n_rings="11">
+    <pitch>1.275</pitch>
+    <outer>2</outer>
+    <center>0 0</center>
+    <universes>
+          1
+         1 1
+        1 1 1
+       1 1 1 1
+      1 1 1 1 1
+     1 1 1 1 1 1
+    1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1
+  1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1
+  1 1 1 1 1 1 1 1 1
+   1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1
+     1 1 1 1 1 1
+      1 1 1 1 1
+       1 1 1 1
+        1 1 1
+         1 1
+          1</universes>
+  </hex_lattice>
+  <surface coeffs="6.375" id="1" type="y-plane" />
+  <surface coeffs="-6.375" id="2" type="y-plane" />
+  <surface coeffs="1.7320508075688772 1.0 0.0 12.75" id="3" type="plane" />
+  <surface coeffs="-1.7320508075688772 1.0 0.0 -12.75" id="4" type="plane" />
+  <surface coeffs="1.7320508075688772 1.0 0.0 -12.75" id="5" type="plane" />
+  <surface coeffs="-1.7320508075688772 1.0 0.0 12.75" id="6" type="plane" />
+  <surface boundary="reflective" coeffs="12.14600628807675" id="7" type="x-plane" />
+  <surface boundary="reflective" coeffs="-12.14600628807675" id="8" type="x-plane" />
+  <surface boundary="reflective" coeffs="0.5773502691896257 1.0 0.0 14.024999999999999" id="9" type="plane" />
+  <surface boundary="reflective" coeffs="-0.5773502691896257 1.0 0.0 14.024999999999999" id="10" type="plane" />
+  <surface boundary="reflective" coeffs="-0.5773502691896257 1.0 0.0 -14.024999999999999" id="11" type="plane" />
+  <surface boundary="reflective" coeffs="0.5773502691896257 1.0 0.0 -14.024999999999999" id="12" type="plane" />
+  <surface coeffs="0.0 0.0 0.45499999999999996" id="123" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="0" id="232" type="z-plane" />
+  <surface boundary="vacuum" coeffs="352" id="345" type="z-plane" />
+  <surface coeffs="0.0 0.0 0.11750000000000001" id="678" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.386" id="765" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.3785" id="895" type="z-cylinder" />
+</geometry>
